@@ -11,7 +11,7 @@ import java.util.Set;
 public class Test {
     public static void main(String[] Args){
 
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\ugur_\\Downloads\\chromedriver.exe\\");
+        System.setProperty("webdriver.chrome.driver","C:\\Users\\necat\\Downloads\\chromedriver.exe\\");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.webaslan.com/");
         driver.quit();

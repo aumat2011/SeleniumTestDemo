@@ -7,13 +7,55 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module-library">
+    <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
           <root url="jar://$USER_HOME$/Downloads/selenium-server-4.1.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-api-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-chrome-driver-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-chromium-driver-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-devtools-v85-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-devtools-v99-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-devtools-v100-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-devtools-v101-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-edge-driver-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-firefox-driver-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-http-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-ie-driver-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-java-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-json-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-opera-driver-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-remote-driver-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-safari-driver-4.1.4.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-support-4.1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-api-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-chrome-driver-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-chromium-driver-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-devtools-v85-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-devtools-v99-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-devtools-v100-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-devtools-v101-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-edge-driver-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-firefox-driver-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-http-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-ie-driver-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-json-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-opera-driver-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-remote-driver-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-safari-driver-4.1.4-sources.jar!/" />
+          <root url="jar://$USER_HOME$/Desktop/selenium-java-4.1.4/selenium-support-4.1.4-sources.jar!/" />
+        </SOURCES>
       </library>
     </orderEntry>
   </component>
