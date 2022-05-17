@@ -58,5 +58,6 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="library" name="selenium-server-4.1.4" level="project" />
   </component>
 </module>
