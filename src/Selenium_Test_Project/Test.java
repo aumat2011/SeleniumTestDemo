@@ -13,7 +13,6 @@ public class Test {
 
         System.setProperty("webdriver.chrome.driver","C:\\Users\\necat\\Downloads\\chromedriver.exe\\");
         WebDriver driver = new ChromeDriver();
-        //driver.get("https://www.webaslan.com/");
         //driver.quit();
 
         driver.get("https://artoftesting.com/sampleSiteForSelenium");
