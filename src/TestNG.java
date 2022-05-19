@@ -39,19 +39,19 @@ public class TestNG
         System.out.println("This will execute after test");
     }
 
-    @Test(priority=1)
+    @Test(priority=1,alwaysRun = true)
     void setup()
     {
         System.out.println("opening browser");
     }
 
-    @Test(priority=2)
+    @Test(priority=2,dependsOnMethods = {"setup"})
     void login()
     {
         System.out.println("login test");
     }
 
-    @Test(priority=3)
+    @Test(priority=3,enabled = false)
     void teardown()
     {
         System.out.println("closing browser");
