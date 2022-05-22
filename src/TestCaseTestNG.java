@@ -6,7 +6,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-public class TestCase
+public class TestCaseTestNG
 {
     WebDriver driver ;
     String SuccessURL = "https://opensource-demo.orangehrmlive.com/index.php/dashboard" ;
@@ -42,7 +42,7 @@ public class TestCase
     @Test(priority = 2)
     void loginFailedChrome() throws InterruptedException
     {
-       setupChrome();
+        setupChrome();
 
         driver.findElement(By.id("txtUsername")).sendKeys("Admin");
         driver.findElement(By.id("txtPassword")).sendKeys("admin123456");
