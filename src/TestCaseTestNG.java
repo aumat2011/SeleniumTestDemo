@@ -9,13 +9,15 @@ import org.testng.annotations.*;
 public class TestCaseTestNG
 {
     WebDriver driver ;
-    String SuccessURL = "https://opensource-demo.orangehrmlive.com/index.php/dashboard" ;
+    //String SuccessURL = "https://opensource-demo.orangehrmlive.com/index.php/dashboard" ;
+
+    String SuccessURL = "https://www.mycompiler.io/";
 
     void setupChrome()
     {
         System.setProperty("webdriver.chrome.driver","C:\\Users\\necat\\Downloads\\chromedriver.exe\\");
         driver = new ChromeDriver();
-        driver.get("https://opensource-demo.orangehrmlive.com/");
+        driver.get("https://www.mycompiler.io/login");
 
     }
 
@@ -23,7 +25,7 @@ public class TestCaseTestNG
     {
         System.setProperty("webdriver.gecko.driver","C:\\Users\\necat\\Downloads\\geckodriver.exe\\");
         driver= new FirefoxDriver();
-        driver.get("https://opensource-demo.orangehrmlive.com/");
+        driver.get("https://www.mycompiler.io/login");
 
     }
 
@@ -32,9 +34,9 @@ public class TestCaseTestNG
     {
         setupChrome();
 
-        driver.findElement(By.id("txtUsername")).sendKeys("Admin");
-        driver.findElement(By.id("txtPassword")).sendKeys("admin123");
-        driver.findElement(By.id("btnLogin")).click();
+        driver.findElement(By.name("username_or_email")).sendKeys("Deneme123");
+        driver.findElement(By.name("password")).sendKeys("Deneme123");
+        driver.findElement(By.id("login-button")).click();
         Assert.assertEquals(driver.getCurrentUrl(), SuccessURL);
         Thread.sleep(5000);
     }
@@ -44,10 +46,10 @@ public class TestCaseTestNG
     {
         setupChrome();
 
-        driver.findElement(By.id("txtUsername")).sendKeys("Admin");
-        driver.findElement(By.id("txtPassword")).sendKeys("admin123456");
-        driver.findElement(By.id("btnLogin")).click();
-        Assert.assertEquals(driver.getCurrentUrl(), SuccessURL) ;
+        driver.findElement(By.name("username_or_email")).sendKeys("Deneme123");
+        driver.findElement(By.name("password")).sendKeys("DENEME123");
+        driver.findElement(By.id("login-button")).click();
+        Assert.assertNotEquals(driver.getCurrentUrl(), SuccessURL);
         Thread.sleep(5000);
     }
 
@@ -56,9 +58,9 @@ public class TestCaseTestNG
     {
         setupFireFox();
 
-        driver.findElement(By.id("txtUsername")).sendKeys("Admin");
-        driver.findElement(By.id("txtPassword")).sendKeys("admin123");
-        driver.findElement(By.id("btnLogin")).click();
+        driver.findElement(By.name("username_or_email")).sendKeys("Deneme123");
+        driver.findElement(By.name("password")).sendKeys("Deneme123");
+        driver.findElement(By.id("login-button")).click();
         Assert.assertEquals(driver.getCurrentUrl(), SuccessURL);
         Thread.sleep(5000);
     }
@@ -68,10 +70,10 @@ public class TestCaseTestNG
     {
         setupFireFox();
 
-        driver.findElement(By.id("txtUsername")).sendKeys("Admin");
-        driver.findElement(By.id("txtPassword")).sendKeys("admin123456");
-        driver.findElement(By.id("btnLogin")).click();
-        Assert.assertEquals(driver.getCurrentUrl(), SuccessURL);
+        driver.findElement(By.name("username_or_email")).sendKeys("Deneme123");
+        driver.findElement(By.name("password")).sendKeys("DENEME123");
+        driver.findElement(By.id("login-button")).click();
+        Assert.assertNotEquals(driver.getCurrentUrl(), SuccessURL);
         Thread.sleep(5000);
     }
 
