@@ -59,7 +59,7 @@
       </library>
     </orderEntry>
     <orderEntry type="library" exported="" name="selenium-server-4.1.4" level="project" />
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="jar://C:/testng-7.6.0.jar!/" />
@@ -78,7 +78,7 @@
         <jarDirectory url="jar://$USER_HOME$/Downloads/jar_files.zip!/" recursive="false" />
       </library>
     </orderEntry>
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="module-library">
       <library>
         <CLASSES>
           <root url="file://$USER_HOME$/Downloads/selenium-java-4.1.4" />
@@ -89,6 +89,15 @@
         </SOURCES>
         <jarDirectory url="file://$USER_HOME$/Downloads/selenium-java-4.1.4" recursive="false" />
         <jarDirectory url="file://$USER_HOME$/Downloads/selenium-java-4.1.4" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/testng-7.6.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
       </library>
     </orderEntry>
   </component>

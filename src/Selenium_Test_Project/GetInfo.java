@@ -33,7 +33,7 @@ public class GetInfo {
         options.setExperimentalOption("prefs", prefs);
 
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\necat\\Downloads\\chromedriver.exe\\");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ugur_\\Downloads\\chromedriver.exe\\");
 
         WebDriver driver1 = new ChromeDriver(options);
 
@@ -45,7 +45,7 @@ public class GetInfo {
         button.click();
         driver1.navigate().refresh();
 
-        WebElement priceAmazon = driver1.findElement(By.xpath("//*[@id=\"a-autoid-2-announce\"]/span[2]/span"));
+        WebElement priceAmazon = driver1.findElement(By.xpath("//*[@id=\"a-autoid-1-announce\"]/span[2]/span"));
 
         String price1 = priceAmazon.getText();
         System.out.println(price1);
