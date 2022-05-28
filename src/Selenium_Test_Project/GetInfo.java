@@ -37,9 +37,9 @@ public class GetInfo {
 
         WebDriver driver = new ChromeDriver(options);
 
-        driver.get("https://www.amazon.com.tr/Yeni-Ba%C5%9Flayanlar-Nesne-Tabanl%C4%B1-Programlama/dp/6059129005/ref=asc_df_6059129005/?tag=" +
-                "trshpngglede-21&linkCode=df0&hvadid=510284706652&hvpos=&hvnetw=g&hvrand=5121728162433850325&hvpone=&" +
-                "hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1012763&hvtargid=pla-787071559881&psc=1");
+        driver.get("https://www.amazon.com.tr/Yeni-Ba%C5%9Flayanlar-Nesne-Tabanl%C4%B1-Programlama/dp/6059129005/" +
+                "ref=asc_df_6059129005/?tag=trshpngglede-21&linkCode=df0&hvadid=510284706652&hvpos=&hvnetw=g&hvrand=" +
+                "5121728162433850325&hvpone=hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=1012763&hvtargid=pla-787071559881&psc=1");
 
         WebElement button = driver.findElement(By.xpath("//*[@id=\"sp-cc-accept\"]"));
         button.click();
@@ -79,7 +79,7 @@ public class GetInfo {
         WebElement priceKitapSepeti = driver.findElement(By.xpath("//*[@id=\"prd_final_price_display\"]"));
         String price3 = priceKitapSepeti.getText();
         String magazaKitapsepeti = "kitapsepeti.com.tr";
-        System.out.println(magazaKitapsepeti + ": "+ price2);
+        System.out.println(magazaKitapsepeti + ": "+ price3);
 
         driver.close();
 
