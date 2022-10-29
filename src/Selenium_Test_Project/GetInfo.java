@@ -33,7 +33,7 @@ public class GetInfo {
         options.setExperimentalOption("prefs", prefs);
 
 
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\ugur_\\Downloads\\chromedriver.exe\\");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\necat\\Downloads\\chromedriver.exe\\");
 
         WebDriver driver = new ChromeDriver(options);
 
@@ -45,7 +45,7 @@ public class GetInfo {
         button.click();
         driver.navigate().refresh();
             try {
-                Thread.sleep(5000);
+                Thread.sleep(3000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
@@ -60,7 +60,7 @@ public class GetInfo {
                 "Egitim-Basvuru/Bilgisayar/urunno=0000000633351?gclid=Cj0KCQjw1ZeUBhDyARIsAOzAqQIaqzYXrfj2niZkhsU17D5JKQxQOphD01Bu-" +
                 "-hY_mhuY9rxG9cErYYaAkoEEALw_wcB&gclsrc=aw.ds");
             try {
-                Thread.sleep(5000);
+                Thread.sleep(3000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }
@@ -72,7 +72,7 @@ public class GetInfo {
         driver.get("https://www.kitapsepeti.com/c-ile-nesne-tabanli-programlama?gclid=" +
                 "Cj0KCQjw1ZeUBhDyARIsAOzAqQKo7seQxBVTaKZd4oQo93t4REUIX8wOQKX164n6F6lgGGm9_n0ZL1waAh64EALw_wcB");
             try {
-                Thread.sleep(5000);
+                Thread.sleep(3000);
             } catch (InterruptedException e) {
                 throw new RuntimeException(e);
             }

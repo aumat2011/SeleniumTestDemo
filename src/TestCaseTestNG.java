@@ -9,8 +9,6 @@ import org.testng.annotations.*;
 public class TestCaseTestNG
 {
     WebDriver driver ;
-    //String SuccessURL = "https://opensource-demo.orangehrmlive.com/index.php/dashboard" ;
-
     String SuccessURL = "https://www.mycompiler.io/";
 
     void setupChrome()
